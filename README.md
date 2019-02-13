@@ -1,7 +1,7 @@
 # Chicago-Crime-Data-Analysis
 This is a Data Analytics Project in which focuses on Analyzing Crime Rate of Chicago from 2012-2017.
 
-
+## Introduction 
 Since we all know that Chicago’s overall crime rate is considerably higher than the US average crime rate and is also
 known as the crime Capital of US, the Objective of this project is to analyze Chicago’s crime rate. In this project we are
 identifying longer and contemporary rates using the historical data because the increase in the crime rates has been the
