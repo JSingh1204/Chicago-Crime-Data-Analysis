@@ -43,4 +43,14 @@ Reporting) system and consists of 22 variables and 1716855 Observations. It belo
 * What are the locations where highest number of crimes have been reported?
 * What are the most commonly reported crime types? Which crime type seems to have reduced over years (2012-2017)?
 
+## Data Processing 
+
+### Data Cleansing
+The Data-Set has data that is store at a crime incident level i.e. each crime incident in the data table has only one
+observation. A unique identifier is associated to each incident that is stored in the CASE variable. Therefore, it means
+that CASE variable should have all unique values. Although we see that some of the instances are duplicated i.e. there
+are two or more rows which have the same case value, for example there are three rows in the data that have a case
+value like HT5722234. Therefore, these duplicated rows need to be removed. So, we can do this by using the
+combination of subset () function and the duplicated () function.
+Before Removing duplicated data based on Case Number , Latitude, Date, Ward etc.
 
